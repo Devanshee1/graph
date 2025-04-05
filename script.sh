@@ -7,7 +7,7 @@ touch activity.txt
 for i in {1..10}
 do
   echo "Commit $i" >> activity.txt
-  GIT_AUTHOR_DATE="2025-01-01$iT12:00:00" GIT_COMMITTER_DATE="2025-01-01$iT12:00:00" \
+  GIT_AUTHOR_DATE="2025-02-02$iT12:00:00" GIT_COMMITTER_DATE="2025-02-02$iT12:00:00" \
   git add activity.txt
   git commit -m "Fake commit $i"
 done
